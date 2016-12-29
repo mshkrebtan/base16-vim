@@ -288,10 +288,10 @@ call <sid>hi("SignifySignChange",  s:gui0D, s:gui01, s:cterm0D, s:cterm01, "", "
 call <sid>hi("SignifySignDelete",  s:gui08, s:gui01, s:cterm08, s:cterm01, "", "")
 
 " Spelling highlighting
-call <sid>hi("SpellBad",     "", s:gui00, "", s:cterm00, "undercurl", s:gui08)
-call <sid>hi("SpellLocal",   "", s:gui00, "", s:cterm00, "undercurl", s:gui0C)
-call <sid>hi("SpellCap",     "", s:gui00, "", s:cterm00, "undercurl", s:gui0D)
-call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
+call <sid>hi("SpellBad",     "", s:gui00, s:cterm00, s:cterm08, "", s:gui08)
+call <sid>hi("SpellLocal",   "", s:gui00, s:cterm00, s:cterm0C, "", s:gui0C)
+call <sid>hi("SpellCap",     "", s:gui00, s:cterm00, s:cterm0D, "", s:gui0D)
+call <sid>hi("SpellRare",    "", s:gui00, s:cterm00, s:cterm0E, "", s:gui0E)
 
 " Remove functions
 delf <sid>hi
